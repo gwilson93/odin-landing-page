@@ -1,0 +1,40 @@
+body {
+  /* font: "Roboto"; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.header,.footer {
+  display: flex;
+  background-color: #1F2937;
+}
+
+.header {
+  justify-content: space-around;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.footer{
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+}
