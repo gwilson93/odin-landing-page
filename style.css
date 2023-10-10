@@ -21,6 +21,7 @@ body {
   font-weight: bold;
 }
 
+
 ul {
   margin-top: 10px;
   display: flex;
@@ -30,6 +31,11 @@ ul {
 li {
   list-style-type: none;
   font-size: 18px;
+  color: #E5E7EB;
+}
+
+a {
+  text-decoration: none;
   color: #E5E7EB;
 }
 
