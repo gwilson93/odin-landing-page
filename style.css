@@ -71,12 +71,19 @@ button {
   border-radius: 3px;
 }
 
+/* Skill Section */
+
+/* Quote Section */
+
 /* Blue Box Section */
 .blue-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #0095ff;
+  margin: 50px 10%;
+  color: white;
+  padding: 30px;
 }
 
 .blue-box-text {
@@ -84,6 +91,14 @@ button {
   flex-direction: column;
 }
 
+.blue-box-text h3, .blue-box-text p{
+  margin: 0;
+}
+
+.blue-box button {
+  border: 1px solid white;
+  color: white;
+}
 /* Footer */
 .footer{
   background-color: #1f2937;
