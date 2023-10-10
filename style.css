@@ -72,6 +72,36 @@ button {
 }
 
 /* Skill Section */
+.boxes {
+  text-align: center;
+}
+
+.boxes h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding-bottom: 25px;
+}
+
+.component {
+  font-size: 15px;
+  width: 250px;
+}
+
+.component h4 {
+  font-size: 20px;
+}
+
+.component img {
+  width: 150px;
+  height: 150px;
+}
 
 /* Quote Section */
 .mid-quote {
