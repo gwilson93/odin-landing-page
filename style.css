@@ -74,6 +74,27 @@ button {
 /* Skill Section */
 
 /* Quote Section */
+.mid-quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 10%;
+  margin: 0;
+}
+
+.mid-quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.mid-quote h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1F2937;
+  align-self: flex-end;
+  padding-right: 50px;
+}
 
 /* Blue Box Section */
 .blue-box {
