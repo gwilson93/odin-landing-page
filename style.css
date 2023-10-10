@@ -21,14 +21,12 @@ a {
 
 .header {
   display: flex;
-  flex-direction: row;
   padding: 16px 0 64px 0;
   justify-content: space-between;
 }
 
 .header h3 {
   margin: 0;
-  font-family: 'Coda', cursive;
 }
 
 .pages {
@@ -38,7 +36,6 @@ a {
 
 .title-div {
   display: flex;
-  flex-direction: row;
   gap: 16px;
   justify-content: space-between;
   padding-bottom: 64px;
@@ -53,7 +50,6 @@ h1 {
   margin: 0;
   font-size: 48px;
   color: #f9faf8;
-  font-family: 'Coda', cursive;
 }
 
 .title p {
@@ -69,8 +65,29 @@ h1 {
  align-self: center;
 }
 
+button {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+/* Blue Box Section */
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0095ff;
+}
+
+.blue-box-text {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Footer */
 .footer{
+  background-color: #1f2937;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: #E5E7EB;
